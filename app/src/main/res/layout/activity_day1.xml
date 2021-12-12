@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".day1"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tooolbar"
+            app:title="Fitness Pack"
+            android:background="@color/colorapp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:gravity="center" >
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+
+            android:layout_marginTop="60dp"
+            android:text="DIET PLAN FOR WEIGHT LOSS"></TextView>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/forwardarrowday1"
+            android:layout_width="79dp"
+            android:layout_height="38dp"
+            android:src="@drawable/arrowforwardfordiet"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="355dp"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/backarrowday2"
+            android:layout_width="79dp"
+            android:layout_height="38dp"
+            android:src="@drawable/arrowbackfordiet"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="-1dp"
+            ></ImageView>
+        <TextView
+
+            android:id="@+id/hederview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 1"
+
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="160dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity=""
+                    android:paddingLeft="10dp"
+                    android:text="Breakfast"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+
+                    android:gravity=""
+                    android:paddingLeft="85dp"
+                    android:text="Mixed Veggies Brown Bread Sandwich (2 Slice) + Carrot Cucumber Juice
+"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="38dp"
+                    android:paddingLeft="6dp"
+                    android:src="@drawable/aa">
+
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="-8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity=""
+                    android:paddingLeft="10dp"
+                    android:text="Mid Morning Snack"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:gravity=""
+                    android:paddingLeft="85dp"
+                    android:text="Mixed Fruits (Small Bowl)  "
+
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="38dp"
+                    android:paddingLeft="6dp"
+                    android:src="@drawable/bb"></ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="-8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity=""
+                    android:paddingLeft="10dp"
+                    android:text="Lunch"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+
+                    android:gravity=""
+                    android:paddingLeft="85dp"
+                    android:text=" Rice + Dal
+(Small Bowl)+ Broccoli   "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="52dp"
+                    android:paddingLeft="6dp"
+                    android:layout_marginTop="38dp"
+                    android:src="@drawable/cc">
+
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="-8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity=""
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="Dinner"  android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+
+                    android:gravity=""
+                    android:paddingLeft="85dp"
+                    android:text=" Boiled Sweet Potato (1 Bowl) + Lime Juice    "
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+                </TextView>
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="52dp"
+                    android:paddingLeft="6dp"
+                    android:layout_marginTop="38dp"
+                    android:src="@drawable/dd">
+
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="-8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity=""
+                    android:paddingLeft="10dp"
+                    android:text="Bet Time Snack"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+
+                    android:gravity=""
+                    android:paddingLeft="85dp"
+                    android:text=" Cinnamon Milk (Low Fat)  "
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+                </TextView>
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="38dp"
+                    android:paddingLeft="6dp"
+                    android:src="@drawable/ee">
+
+                </ImageView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="38dp"
+                    android:paddingLeft="-20dp"
+                    android:src="@drawable/replacement">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity=""
+                    android:textStyle="bold"
+                    android:paddingLeft="60dp"
+                    android:text="Replacement"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:gravity=""
+                    android:paddingLeft="10dp"
+                    android:text="
+⁕	Carrot Cucumber Juice - Grapefruit Juice \n
+⁕	Mixed Fruits Bowl ¬- 2 Apples \n
+⁕	Rice + Dal Bowl - Red Beans Curry Bowl \n
+⁕	Boiled Sweet Potato - Mushroom Soup \n
+⁕	Cinnamon Milk - Green Tea \n
+"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-8dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="38dp"
+                    android:paddingLeft="-20dp"
+                    android:src="@drawable/workout">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity=""
+                    android:textStyle="bold"
+                    android:paddingLeft="60dp"
+                    android:text="Workout Plan"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:gravity=""
+                    android:paddingLeft="10dp"
+                    android:text="
+⁕	20 Squats \n
+⁕	15 Seconds Plank \n
+⁕	25 Crunches \n
+⁕	35 Jumping Jacks \n
+⁕	15 Lungs \n
+⁕	25 Second Wall Sit \n
+⁕	10 Sit Ups \n
+⁕	10 Butt Kicks \n
+⁕	5 Push Ups\n
+
+"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

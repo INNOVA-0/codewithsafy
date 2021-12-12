@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abs">
+    <RelativeLayout
+        android:id="@id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tooolbar"
+
+            app:title="Fitness Pack"
+
+            android:background="@color/colorapp"
+
+            />
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="79dp"
+
+            android:layout_height="38dp"
+            android:src="@drawable/ic_arrow_back_24"
+
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+
+            >
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonabs"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="720dp"
+        android:layout_marginLeft="12dp"
+        android:textSize="25dp"
+        android:background="@drawable/btn"
+        android:text="Start"
+        android:textColor="#ffffff"
+        app:backgroundTint="#D8326A"/>
+
+
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/header"
+        tools:ignore="NotSibling">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="770dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="-130dp"
+                android:layout_marginLeft="-155dp"
+                android:src="@drawable/thigh">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-120dp"
+                android:text="Short and Effective Workouts Beginner Freindly!"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-90dp"
+                android:text="Beginner"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+
+                >
+            </TextView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jumpingjackk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="160dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="HIGH STEPPING"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="00:30"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+                    android:src="@drawable/high_stepping"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="JUPPING JACKS"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="00:30"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/jumping_jack"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/jumpingjackss"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="SQUATS"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 12"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+                    android:id="@+id/abs"
+                    android:src="@drawable/squat"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="DONKEY KICKS LEFT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 12"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/donkeykicks"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="DONKEY KICKS RIGHT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 12"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/donkeykicksright"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="BACKWARD LUNGE"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 14"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/backward1"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="SIDE-LYING LEG LIFT LEFT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 10"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/sideleft"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="SIDE-LYING LEG LIFT RIGHT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 10"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/sideright"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="MODIFIED BURPEES"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 6"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/modifiedburpees"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="SQUATS"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 10"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/squat"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="DONKEY KICK LEFTS"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 10"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/donkeykicks"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="DONKEY KICKS RIGHT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 10"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/donkeykicksright"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="BACKWARD LUNGE"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 12"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/backward1"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:layout_marginTop="0dp"
+            android:elevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+
+            app:cardUseCompatPadding="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:paddingLeft="10dp"
+                android:text="SIDE-LYING LEG LIFT LEFT"
+
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:paddingLeft="10dp"
+                android:text="X 8"
+
+                android:layout_marginTop="40dp"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="400dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="-20dp"
+                android:paddingLeft="294dp"
+
+                android:src="@drawable/sideleft"
+
+                >
+
+            </pl.droidsonroids.gif.GifImageView>
+
+
+
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="SIDE-LYING LEG LIFT RIGHT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="X 8"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/sideright"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="LEFT QUAD STRETCH WITH WALL"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="00:30"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/leftsquad1"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="RIGHT QUAD STRETCH WITH WALL"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="00:30"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/rightsquad1"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="KNEE TO CHEST STRECH LEFT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="00:30"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/kneetochestochleft"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="KNEE TO CHEST STRETCH RIGHT"
+
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="10dp"
+                    android:text="00:30"
+
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+
+                </TextView>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="-20dp"
+                    android:paddingLeft="294dp"
+
+                    android:src="@drawable/kneeright"
+
+                    >
+
+                </pl.droidsonroids.gif.GifImageView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

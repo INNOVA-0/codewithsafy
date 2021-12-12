@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fitness Pack</string>
+
+    <string name="open">ww</string>
+    <string name="close">ss</string>
+    <string name="weightloss"> <u>Diet plan for weight lose</u></string>
+
+
+</resources>

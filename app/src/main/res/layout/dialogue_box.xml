@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/bmi"
+
+        />
+<TextView
+    android:id="@+id/result1"
+    android:text="info"
+    android:textSize="24sp"
+    android:textColor="@color/black"
+    android:textStyle="italic"
+
+
+    android:gravity="center"
+    android:layout_marginTop="6dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+
+ />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/checkdiet"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="-80dp"
+        android:text="Checkdiet"
+        android:background="@drawable/blue_fill__rounded_color"
+
+        android:backgroundTint="#D8326A"
+        android:layout_marginBottom="16dp"
+        android:textColor="#ffffff"
+
+        android:layout_height="40dp"
+        android:layout_width="90dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancell"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:backgroundTint="#D8326A"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="80dp"
+        android:text="Cancell"
+        android:layout_marginBottom="0dp"
+
+        android:layout_height="40dp"
+        android:layout_width="90dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

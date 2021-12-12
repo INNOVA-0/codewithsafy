@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tooolbar"
+
+            app:title="Fitness Pack"
+
+            android:background="@color/colorapp"
+
+            />
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="79dp"
+
+            android:layout_height="38dp"
+            android:src="@drawable/ic_arrow_back_24"
+
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+
+            >
+
+        </ImageView>
+    </RelativeLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        app:cardCornerRadius="110dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/run"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="30dp"
+                android:textColor="@color/colorapp"
+                android:id="@+id/TV_STEPS"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steps Count" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="25dp"
+                android:textColor="@color/colorapp"
+                android:drawableLeft="@drawable/calories"
+                android:drawablePadding="10dp"
+                android:id="@+id/TV_CALORIES"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Burnt Calories"
+                android:layout_marginLeft="45dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="25dp"
+                android:textColor="@color/colorapp"
+                android:drawableLeft="@drawable/check"
+                android:drawablePadding="10dp"
+                android:id="@+id/TV_DISTANCE"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Distance Covered"
+                android:layout_marginLeft="45dp"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:background="@drawable/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startsteps"
+        android:backgroundTint="@color/colorapp"
+
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:text="start"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetteps"
+
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorapp"
+        android:background="@drawable/btn"
+        android:text="RESET"
+        android:textColor="@color/white"
+
+        />
+
+
+
+</LinearLayout>

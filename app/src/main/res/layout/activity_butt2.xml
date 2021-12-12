@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abs2">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-150dp"
+
+            android:src="@drawable/high_stepping"
+
+            >
+
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ready to Go"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/colorapp"
+            android:layout_marginTop="520dp"
+            android:textSize="40sp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HIGH STEPPING"
+            android:layout_marginLeft="115dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="580dp"
+            android:textSize="25sp"
+            >
+
+        </TextView>
+
+
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="610dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorapp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/textabs"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            android:layout_marginLeft="55dp"
+
+            ></TextView>
+    </FrameLayout>
+
+</RelativeLayout>

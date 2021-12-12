@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="100dp"
+            android:paddingLeft="7dp"
+            android:text="''FITNESS PACK IS AN ANDROID APPLICATION THAT WORK LIKE A PHYSICAL TRAINER TO GUIDE IN  EXCERCISES AS WELL AS PROVIDE HEALTHY DIET PLANS''"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:paddingLeft="10dp"
+        android:text="Version 1.0"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15sp">
+
+
+    </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="270dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:paddingLeft="10dp"
+            android:text="CONNECT WITH US"
+            android:textStyle="italic"
+            android:textColor="@color/gray"
+            android:textSize="15sp">
+
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="320dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/emai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:paddingLeft="10dp"
+            android:text="Contact us"
+            android:drawablePadding="4dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="370dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/insta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_facebook_24"
+            android:drawablePadding="4dp"
+            android:gravity=""
+            android:paddingLeft="10dp"
+            android:text="FOLLOW US ON FACEBOOK"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal">
+
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="470dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="Copyright 2021 By FitnessPack"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="12sp">
+
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
+

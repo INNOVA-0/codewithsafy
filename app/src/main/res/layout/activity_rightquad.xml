@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jumping_jack1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-150dp"
+
+            android:src="@drawable/rightsquad1"
+
+            >
+
+        </pl.droidsonroids.gif.GifImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="RIGHT QUAD STRETCH WITH WALL "
+            android:layout_marginLeft="19dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="700dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            >
+
+        </TextView>
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="640dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/colorapp"
+                android:layout_marginTop="6dp"
+                android:id="@+id/textabs"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:layout_marginLeft="19dp"
+
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/30''"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:id="@+id/outof"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginLeft="78dp"
+
+                ></TextView>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="79dp"
+
+            android:layout_height="38dp"
+            android:src="@drawable/ic_baseline_videocam_24"
+
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="700dp"
+            android:onClick="youtuber"
+
+            >
+
+        </ImageView>
+    </RelativeLayout>
+
+</RelativeLayout>

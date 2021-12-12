@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ei">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="70dp">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/select"
+        android:layout_marginTop="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Select"
+        android:textColor="#ffffff"
+        app:backgroundTint="#D8326A"
+         />
+
+    <Button
+        android:id="@+id/detail"
+        android:layout_marginTop="450dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Detail"
+        android:textColor="#ffffff"
+        app:backgroundTint="#D8326A"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="44dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="74dp"
+        android:textColor="@color/black"
+        android:onClick="detailsFromGalery">
+
+
+    </TextView>
+</RelativeLayout>

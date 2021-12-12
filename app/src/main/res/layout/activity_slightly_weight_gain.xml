@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".day1"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tooolbar"
+            app:title="Fitness Pack"
+            android:background="@color/colorapp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:gravity="center" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+
+            android:layout_marginTop="60dp"
+            android:text="DIET PLAN FOR SLIGHTLY WEIGHT GAIN"></TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/forwardarrowday1"
+            android:layout_width="79dp"
+            android:layout_height="38dp"
+            android:src="@drawable/arrowforwardfordiet"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="355dp"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/backarrowday2"
+            android:layout_width="79dp"
+            android:layout_height="38dp"
+            android:src="@drawable/arrowbackfordiet"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="-1dp"
+            ></ImageView>
+        <TextView
+
+            android:id="@+id/hederview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Things to Add"
+
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_below="@id/header" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="0dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:paddingLeft="10dp"
+            android:text="Nuts"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Almonds, walnuts, macadamia nuts, peanuts, etc."
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/aaaa">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:paddingLeft="10dp"
+            android:text="Dried Fruit"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Raisins, dates, prunes and others"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/cccc">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="-8dp"
+            android:elevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:paddingLeft="10dp"
+                android:text="•	High-fat dairy"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+
+                android:gravity=""
+                android:paddingLeft="85dp"
+                android:text="Whole milk, full-fat yogurt, cheese, cream."
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+
+            <ImageView
+                android:layout_width="79dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="38dp"
+                android:paddingLeft="6dp"
+                android:src="@drawable/eeee">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="-8dp"
+            android:elevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:paddingLeft="10dp"
+                android:text="•	Meat "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+
+                android:gravity=""
+                android:paddingLeft="85dp"
+                android:text="Chicken, beef, pork, lamb, etc."
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="79dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="38dp"
+                android:paddingLeft="6dp"
+                android:src="@drawable/gggg">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="-8dp"
+            android:elevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:paddingLeft="10dp"
+                android:text="Tubers "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+
+                android:gravity=""
+                android:paddingLeft="85dp"
+                android:text="Potatoes, sweet potatoes and yams."
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+
+
+
+            <ImageView
+                android:layout_width="79dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="38dp"
+                android:paddingLeft="6dp"
+                android:src="@drawable/iiii">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="-8dp"
+            android:elevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:paddingLeft="10dp"
+                android:text="Grains"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+
+                android:gravity=""
+                android:paddingLeft="85dp"
+                android:text="Whole grains like oats and brown rice."
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+
+
+            <ImageView
+                android:layout_width="79dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="38dp"
+                android:paddingLeft="6dp"
+                android:src="@drawable/kkkk">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="-8dp"
+            android:elevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:paddingLeft="10dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+
+                android:gravity=""
+                android:paddingLeft="85dp"
+                android:text="•Dark chocolate, avocados, peanut butter, coconut milk, granola, trail mixes."
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+
+
+
+            <ImageView
+                android:layout_width="79dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="38dp"
+                android:paddingLeft="6dp"
+                android:src="@drawable/mmmm">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="-8dp"
+            android:elevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:paddingLeft="10dp"
+                android:text="•	Fats and oils"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+
+                android:gravity=""
+                android:paddingLeft="85dp"
+                android:text="Extra virgin olive oil and avocado oil."
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+
+
+            <ImageView
+                android:layout_width="79dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="38dp"
+                android:paddingLeft="6dp"
+                android:src="@drawable/oooo">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

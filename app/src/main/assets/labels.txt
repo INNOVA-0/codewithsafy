@@ -1,0 +1,7 @@
+aerobic_steppers
+bench_press
+dumb_bell
+elliptical
+multi_machine
+rowing_machine
+treadmill

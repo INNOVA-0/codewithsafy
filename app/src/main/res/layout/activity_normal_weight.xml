@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day7">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tooolbar"
+            app:title="Fitness Pack"
+            android:background="@color/colorapp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy Diet Plan"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="150dp"></TextView>
+
+    </RelativeLayout>
+
+<ScrollView
+android:id="@+id/scrollableContents"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+android:layout_below="@id/header" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="0dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Eliminate white sugar from your diet"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/aaa">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Consume less salt"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/bbb">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Drink minimum 8 glass of water per day"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/ccc">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Eat eggs, preferably for breakfast"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/ddd">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Choose healthy oils"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/eee">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Add Greek yogurt to your diet"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/fff">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Take omega-3 and vitamin D supplements"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/ggg">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Try at least one new healthy recipe per week"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/hhh">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Replace sugary beverages with sparkling water"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/iii">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Drink your coffee black"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/jjj">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Stay away from “diet” foods"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/kkk">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Eat fresh berries instead of dried ones"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/lll">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Eat from smaller plates"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/mmm">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Choose whole grain bread instead of refined"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/nnn">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Increase your protein intake"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/ooo">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Bake or roast instead of grilling or frying"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/ppp">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Choose baked potatoes over French fries"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/qqq">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Eat your greens first"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/rrr">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Eat your fruits instead of drinking them"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/sss">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Try to eat from all food groups"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/ttt">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Do not smoke."
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/uuu">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView> <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginTop="-8dp"
+    android:elevation="4dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+
+        android:gravity=""
+        android:paddingLeft="85dp"
+        android:text="Check your blood pressure regularly"
+        android:textColor="@color/black"
+        android:textSize="15sp">
+
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="38dp"
+        android:paddingLeft="6dp"
+        android:src="@drawable/vvv">
+
+    </ImageView>
+
+
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Get a good night’s sleep"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/www">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Do not skip meals, especially breakfast"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/xxx">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Do daily workout"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/zzz">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="-8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+
+            android:gravity=""
+            android:paddingLeft="85dp"
+            android:text="Walking for 30 minutes a day or more on most days of the week"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="38dp"
+            android:paddingLeft="6dp"
+            android:src="@drawable/yyy">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

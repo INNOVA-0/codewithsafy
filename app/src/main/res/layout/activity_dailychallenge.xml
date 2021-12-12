@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dailychallenge">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tooolbar"
+            app:title="Fitness Pack"
+            android:background="@color/colorapp"
+            />
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="79dp"
+
+            android:layout_height="38dp"
+            android:src="@drawable/ic_arrow_back_24"
+
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+
+            >
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:id="@+id/challenges"
+        android:layout_width="match_parent"
+
+        android:layout_height="400dp"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="65dp"
+
+        >
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/compl"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="COMPLETED"
+        android:textColor="#ffffff"
+        app:backgroundTint="#D8326A"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="500dp"
+
+         />
+    <Button
+        android:id="@+id/abort"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="ABORT"
+        android:textColor="#ffffff"
+        app:backgroundTint="#D8326A"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="580dp"
+
+        />
+
+    <Button
+        android:id="@+id/abortt"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="ABORT"
+        android:textColor="#ffffff"
+        app:backgroundTint="#D8326A"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="580dp"
+
+        />
+</RelativeLayout>
